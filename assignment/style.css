@@ -6,7 +6,9 @@ header {
     color: white;
 }
 
-
+ul {
+    list-style: none;
+}
 
 /* Add a fun background color to the main element */
 main {

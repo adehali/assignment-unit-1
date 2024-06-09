@@ -1,9 +1,12 @@
 /* Add a background color to the header element */
 header {
-    background-color: lightblue;
+    background-color: rgb(88, 153, 117);
     padding: 20px 5%;
     box-shadow: 0 1px 3px #999;
+    color: white;
 }
+
+
 
 /* Add a fun background color to the main element */
 main {

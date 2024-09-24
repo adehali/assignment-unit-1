@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
-    <title>Unit 1 Assignment</title>
+    <title>Hello World</title>
     <!-- Used for automated testing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.min.js" integrity="sha512-jsP/sG70bnt0xNVJt+k9NxQqGYvRrLzWhI+46SSf7oNJeCwdzZlBvoyrAN0zhtVyolGcHNh/9fEgZppG2pH+eA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css" integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,24 +16,34 @@
 </head>
 <body>
 
-    <!-- Create a header element  -->
-
+     <!-- Create a header element  -->
     <!-- Inside the header, add an <h1> element containing your name -->
+<header>
+    <h1 style="font-size:45px;"> Aden Ali </h1>
+</header>
+   
 
-    <main>
-    <!-- Include an image -->
+   <main>
+   <!-- Include an image -->
+   <img src="MyImage.jpg" alt="MyImage"  width="200" height="250">
+   <!-- Create an unordered list with 3 list items of fun facts about you -->
+   <h2> <i>About Me:</i></h2>
+<ul>
+   <li>I cannot fall asleep if I don't cover my left hand on my eyes. When I wake up, my left hand lays on somewhere else.</li>
+   <li>In my life, I had drunk a beer once when I was 12th years old. I thought it was a Soda, so I never did it again.</li>
+   <li>I cannot sneeze if you are talking to me. Please 'Bless me' when I finish sneezing.</li>
+</ul>
+   </main>
+   <!-- Create a footer element -->
+<footer>
+   <p style="font-size:24px;">"Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that." Martin Luther King Jr.</p>
+</footer>
+   <!-- Inside your footer, put a <p> element with your favorite quote -->
 
-    <!-- Create an unordered list with 3 list items of fun facts about you -->
-
-    </main>
-    <!-- Create a footer element -->
-
-    <!-- Inside your footer, put a <p> element with your favorite quote -->
-
-    <div id="container">
-        <!-- Used for automated testing -->
-        <div id="mocha"></div>
-    </div>
+   <div id="container">
+       <!-- Used for automated testing -->
+       <div id="mocha"></div>
+   </div>
 
     <link rel="stylesheet" href="../test/test.styles.css" />
     <script src="../test/test.js"></script>
